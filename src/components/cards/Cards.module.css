@@ -1,0 +1,31 @@
+.container{
+    margin:50px 0;
+}
+.card{
+    margin:0 2% !important;
+}
+.infected{
+    border-bottom: 10px solid rgba(0,0,255,0.5);
+
+}
+.infected:hover{
+    background-color: rgba(0,0,255,0.15);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(0,255,0,0.5);
+}
+.recovered:hover{
+    background-color: rgba(0,255,0,0.15);
+}
+.deaths{
+    border-bottom: 10px solid rgba(255,0,0,0.5);
+}
+.deaths:hover{
+    background-color: rgba(255,0,0,0.15);
+}
+@media(max-width:770px){
+    .card{
+        margin:2% 0 !important
+    }
+}
